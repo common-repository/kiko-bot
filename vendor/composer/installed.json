@@ -1,0 +1,931 @@
+{
+    "packages": [
+        {
+            "name": "10quality/ayuco",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/ayuco.git",
+                "reference": "a44f4b0c15e91a701862a80cc7701fb1bbc57866"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/ayuco/zipball/a44f4b0c15e91a701862a80cc7701fb1bbc57866",
+                "reference": "a44f4b0c15e91a701862a80cc7701fb1bbc57866",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.0.*"
+            },
+            "time": "2020-01-25T02:49:29+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ayuco\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alejandro Mostajo",
+                    "homepage": "http://about.me/amostajo"
+                },
+                {
+                    "name": "10Quality",
+                    "homepage": "http://www.10quality.com/"
+                }
+            ],
+            "description": "Command-Line interface that can be used to execute commands written in PHP.",
+            "homepage": "https://github.com/10quality/ayuco",
+            "keywords": [
+                "command-line",
+                "commands",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/10quality/ayuco/issues",
+                "source": "https://github.com/10quality/ayuco/tree/v1.0"
+            },
+            "install-path": "../10quality/ayuco"
+        },
+        {
+            "name": "10quality/wp-file",
+            "version": "v0.9.4",
+            "version_normalized": "0.9.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wp-file.git",
+                "reference": "282f0f6733a9e18b392a8b9999dcd8949275a77b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wp-file/zipball/282f0f6733a9e18b392a8b9999dcd8949275a77b",
+                "reference": "282f0f6733a9e18b392a8b9999dcd8949275a77b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.4.*"
+            },
+            "time": "2018-06-12T20:43:25+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TenQuality\\WP\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com"
+                },
+                {
+                    "name": "10 Quality",
+                    "email": "info@10quality.com"
+                }
+            ],
+            "description": "Small class library that facilitates file handling in Wordpress.",
+            "keywords": [
+                "file",
+                "filesystem",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/10quality/wp-file/issues",
+                "source": "https://github.com/10quality/wp-file/tree/v1.0"
+            },
+            "install-path": "../10quality/wp-file"
+        },
+        {
+            "name": "10quality/wpmvc-commands",
+            "version": "v1.1.13",
+            "version_normalized": "1.1.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wpmvc-commands.git",
+                "reference": "1be04c5a84d3c5c3b596dc622a977094d1d242d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wpmvc-commands/zipball/1be04c5a84d3c5c3b596dc622a977094d1d242d5",
+                "reference": "1be04c5a84d3c5c3b596dc622a977094d1d242d5",
+                "shasum": ""
+            },
+            "require": {
+                "10quality/ayuco": "^1.0",
+                "nikic/php-parser": "^4.2",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.0.*"
+            },
+            "time": "2021-02-12T04:03:27+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPMVC\\Commands\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com"
+                }
+            ],
+            "description": "Ayuco commands/jobs for WordPress MVC.",
+            "keywords": [
+                "ayuco",
+                "jobs",
+                "mvc",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/10quality/wpmvc-commands/issues",
+                "source": "https://github.com/10quality/wpmvc-commands/tree/v1.1.13"
+            },
+            "install-path": "../10quality/wpmvc-commands"
+        },
+        {
+            "name": "10quality/wpmvc-core",
+            "version": "v3.1.15",
+            "version_normalized": "3.1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wpmvc-core.git",
+                "reference": "f44dc7b38d3ab581a7034396c1f61e29f0f52b85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wpmvc-core/zipball/f44dc7b38d3ab581a7034396c1f61e29f0f52b85",
+                "reference": "f44dc7b38d3ab581a7034396c1f61e29f0f52b85",
+                "shasum": ""
+            },
+            "require": {
+                "10quality/wpmvc-logger": "2.0.*",
+                "10quality/wpmvc-mvc": "2.1.*",
+                "10quality/wpmvc-phpfastcache": "4.0.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "10quality/wpmvc-commands": "1.0.*",
+                "phpunit/phpunit": "7.5.*"
+            },
+            "time": "2021-02-12T03:18:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/lib/functions.php"
+                ],
+                "psr-4": {
+                    "WPMVC\\": "src/psr4"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "10 Quality",
+                    "email": "info@10quality.com"
+                },
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com"
+                }
+            ],
+            "description": "WordPress MVC crore plugin.",
+            "keywords": [
+                "core",
+                "mvc",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/10quality/wpmvc-core/issues",
+                "source": "https://github.com/10quality/wpmvc-core/tree/v3.1.15"
+            },
+            "install-path": "../10quality/wpmvc-core"
+        },
+        {
+            "name": "10quality/wpmvc-logger",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wpmvc-logger.git",
+                "reference": "726b82a34807cdac30d06684e342b7d0035735fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wpmvc-logger/zipball/726b82a34807cdac30d06684e342b7d0035735fd",
+                "reference": "726b82a34807cdac30d06684e342b7d0035735fd",
+                "shasum": ""
+            },
+            "require": {
+                "10quality/wp-file": "0.9.*",
+                "php": ">=5.3",
+                "psr/log": "1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "time": "2016-09-23T21:01:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPMVC\\KLogger\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kenny Katzgrau",
+                    "email": "katzgrau@gmail.com"
+                },
+                {
+                    "name": "Dan Horrigan",
+                    "email": "dan@dhorrigan.com"
+                },
+                {
+                    "name": "10 Quality",
+                    "email": "info@10quality.com",
+                    "homepage": "http://www.10quality.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "KLogger for Wordpress MVC.",
+            "keywords": [
+                "logging"
+            ],
+            "support": {
+                "source": "https://github.com/10quality/wpmvc-logger/tree/v2.0"
+            },
+            "install-path": "../10quality/wpmvc-logger"
+        },
+        {
+            "name": "10quality/wpmvc-mvc",
+            "version": "v2.1.13",
+            "version_normalized": "2.1.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wpmvc-mvc.git",
+                "reference": "c1d14a9deacb5d4b0e782d3435530c0d3eaabd4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wpmvc-mvc/zipball/c1d14a9deacb5d4b0e782d3435530c0d3eaabd4e",
+                "reference": "c1d14a9deacb5d4b0e782d3435530c0d3eaabd4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.5.*"
+            },
+            "time": "2021-03-18T19:45:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPMVC\\MVC\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com"
+                },
+                {
+                    "name": "10Quality",
+                    "email": "info@10quality.com"
+                }
+            ],
+            "description": "Lightweight MVC for WPMVC (WordPress MVC framework).",
+            "keywords": [
+                "light",
+                "lightweight",
+                "mvc",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/10quality/wpmvc-mvc/issues",
+                "source": "https://github.com/10quality/wpmvc-mvc/tree/v2.1.13"
+            },
+            "install-path": "../10quality/wpmvc-mvc"
+        },
+        {
+            "name": "10quality/wpmvc-phpfastcache",
+            "version": "v4.0.1",
+            "version_normalized": "4.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10quality/wpmvc-phpfastcache.git",
+                "reference": "f084123371dbfc734ed0e680a4e7aa61dd0d100b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10quality/wpmvc-phpfastcache/zipball/f084123371dbfc734ed0e680a4e7aa61dd0d100b",
+                "reference": "f084123371dbfc734ed0e680a4e7aa61dd0d100b",
+                "shasum": ""
+            },
+            "require": {
+                "10quality/wp-file": "0.9.*",
+                "php": ">=5.1.0"
+            },
+            "require-dev": {
+                "katzgrau/klogger": "dev-master",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~4.1",
+                "sami/sami": "dev-master"
+            },
+            "time": "2016-10-25T23:32:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/lib/functions.php"
+                ],
+                "psr-4": {
+                    "WPMVC\\PHPFastCache\\": "src/psr4"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Khoa Bui",
+                    "email": "khoaofgod@gmail.com",
+                    "homepage": "http://www.phpfastcache.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "10 Quality",
+                    "email": "info@10quality.com",
+                    "homepage": "http://www.10quality.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alejandro Mostajo",
+                    "email": "amostajo@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Forked version that works with Wordpress MVC.",
+            "homepage": "http://www.phpfastcache.com",
+            "keywords": [
+                "cache"
+            ],
+            "support": {
+                "source": "https://github.com/10quality/wpmvc-phpfastcache/tree/v4.0"
+            },
+            "install-path": "../10quality/wpmvc-phpfastcache"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.3.0",
+            "version_normalized": "7.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7008573787b430c1c1f650e3722d9bba59967628",
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.4",
+                "guzzlehttp/psr7": "^1.7 || ^2.0",
+                "php": "^7.2.5 || ^8.0",
+                "psr/http-client": "^1.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^3.0",
+                "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+                "psr/log": "^1.1"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "time": "2021-03-23T11:33:13+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.3-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://sagikazarmark.hu"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/alexeyshockov",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/gmponos",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../guzzlehttp/guzzle"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.4.1",
+            "version_normalized": "1.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "time": "2021-03-07T09:25:29+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.4.1"
+            },
+            "install-path": "../guzzlehttp/promises"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.8.2",
+            "version_normalized": "1.8.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
+            },
+            "suggest": {
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
+            },
+            "time": "2021-04-26T09:17:50+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.8.2"
+            },
+            "install-path": "../guzzlehttp/psr7"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v4.10.5",
+            "version_normalized": "4.10.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "4432ba399e47c66624bc73c8c0f811e5c109576f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4432ba399e47c66624bc73c8c0f811e5c109576f",
+                "reference": "4432ba399e47c66624bc73c8c0f811e5c109576f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
+            },
+            "time": "2021-05-03T19:11:20+00:00",
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.9-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/nikic/PHP-Parser/issues",
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.5"
+            },
+            "install-path": "../nikic/php-parser"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "time": "2020-06-29T06:28:15+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "install-path": "../psr/http-client"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2016-08-06T14:39:51+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
+            "install-path": "../psr/http-message"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "time": "2012-12-21T11:40:51+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/log/issues",
+                "source": "https://github.com/php-fig/log/tree/1.0.0"
+            },
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "version_normalized": "3.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "time": "2019-03-08T08:55:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
+            "install-path": "../ralouphie/getallheaders"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": [
+        "10quality/ayuco",
+        "10quality/wpmvc-commands",
+        "nikic/php-parser"
+    ]
+}

@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-07 10:11+0200\n"
+"PO-Revision-Date: 2021-06-07 10:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: app\n"
+"X-Poedit-SearchPath-1: assets/views\n"
+
+#: assets/views/kiko-admin-page.php:17 assets/views/kiko-register-page.php:32
+msgid "Informationen"
+msgstr "Informationen"
+
+#: assets/views/kiko-admin-page.php:19 assets/views/kiko-register-page.php:34
+msgid ""
+"Nach der Registrierung können Sie sich einen eigenen Chatbot anlegen.\n"
+"      Starten Sie mit eigenen Inhalten oder wählen Sie über \"Start\" im CMS "
+"eine\n"
+"      Vorlage aus. Unter folgendem Link erhalten Sie wichtige Informationen "
+"zum\n"
+"      Content Management System."
+msgstr ""
+"Nach der Registrierung können Sie sich einen eigenen Chatbot anlegen.\n"
+"      Starten Sie mit eigenen Inhalten oder wählen Sie über \"Start\" im CMS "
+"eine\n"
+"      Vorlage aus. Unter folgendem Link erhalten Sie wichtige Informationen "
+"zum\n"
+"      Content Management System."
+
+#: assets/views/kiko-admin-page.php:32
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+#: assets/views/kiko-admin-page.php:38
+msgid "Chat-Modus: "
+msgstr "Chat-Modus: "
+
+#: assets/views/kiko-admin-page.php:45
+msgid ""
+"Mit dem Shortcode <b>[kiko-wp-plugin-chat]</b> kann der Chat in den Content "
+"integriert werden. <b>Der Shortcode darf nur einmal verwendet werden!</b>"
+msgstr ""
+"Mit dem Shortcode <b>[kiko-wp-plugin-chat]</b> kann der Chat in den Content "
+"integriert werden. <b>Der Shortcode darf nur einmal verwendet werden!</b>"
+
+#: assets/views/kiko-admin-page.php:46
+msgid ""
+"Styles können direkt über das Style-Attribute im Shortcode angegeben werden. "
+"<b>[kiko-wp-plugin-chat style=\"width:500px; height: 400px;\"]</b>"
+msgstr ""
+"Styles können direkt über das Style-Attribute im Shortcode angegeben werden. "
+"<b>[kiko-wp-plugin-chat style=\"width:500px; height: 400px;\"]</b>"
+
+#: assets/views/kiko-admin-page.php:50
+msgid "Bot-Sprache: "
+msgstr "Bot-Sprache: "
+
+#: assets/views/kiko-admin-page.php:58
+msgid "Speichern"
+msgstr "Speichern"
+
+#: assets/views/kiko-admin-page.php:62
+msgid "Plugin zurücksetzen"
+msgstr "Plugin zurücksetzen"
+
+#: assets/views/kiko-admin-page.php:63
+msgid ""
+"Durch das Drücken auf den nachfolgenden Button wird das Plugin auf die "
+"ursprünglichen Einstellungen zurückgesetzt. Achtung, Sie müssen sich "
+"anschließend neu bei Kiko anmelden."
+msgstr ""
+"Durch das Drücken auf den nachfolgenden Button wird das Plugin auf die "
+"ursprünglichen Einstellungen zurückgesetzt. Achtung, Sie müssen sich "
+"anschließend neu bei Kiko anmelden."
+
+#: assets/views/kiko-admin-page.php:66
+msgid "Einstellungen zurücksetzen"
+msgstr "Einstellungen zurücksetzen"
+
+#: assets/views/kiko-register-page.php:15
+msgid ""
+"Chatbot Kiko beantwortet als digitaler Assistent jederzeit Fragen und\n"
+"      vereinfacht Prozesse. Er hilft Ihren Kunden dabei, eine Vielzahl an\n"
+"      Aufgaben automatisiert und effizienter zu bewältigen. Er verliert nie "
+"den\n"
+"      Überblick über Prozesse und wichtige Daten, ist immer ansprechbar und "
+"gut\n"
+"      gelaunt. Die gesuchten Informationen kann er jederzeit schnell\n"
+"      bereitstellen und dadurch zur Entlastung aller Beschäftigter "
+"beitragen.\n"
+"      Anwendungsgebiete für unsere Chatbotlösung sind Bereiche wie HR,\n"
+"      Verwaltung oder Mitarbeiter-Onboarding."
+msgstr ""
+"Chatbot Kiko beantwortet als digitaler Assistent jederzeit Fragen und\n"
+"      vereinfacht Prozesse. Er hilft Ihren Kunden dabei, eine Vielzahl an\n"
+"      Aufgaben automatisiert und effizienter zu bewältigen. Er verliert nie "
+"den\n"
+"      Überblick über Prozesse und wichtige Daten, ist immer ansprechbar und "
+"gut\n"
+"      gelaunt. Die gesuchten Informationen kann er jederzeit schnell\n"
+"      bereitstellen und dadurch zur Entlastung aller Beschäftigter "
+"beitragen.\n"
+"      Anwendungsgebiete für unsere Chatbotlösung sind Bereiche wie HR,\n"
+"      Verwaltung oder Mitarbeiter-Onboarding."
+
+#: assets/views/kiko-register-page.php:25
+msgid ""
+"Mit dem Produkt Kiko unterstützen wir große Unternehmen, Behörden und KMU\n"
+"      bei der Erstellung und dem Betrieb digitaler Assistenten. Mit wenigen\n"
+"      Schritten können Sie sich für ein Chatbot-Konto registrieren. Eine\n"
+"      ausführliche Beschreibung zur Erstellung von Inhalten finden Sie im\n"
+"      Helpcenter auf unserer Webseite <a href=\"www.kiko.bot\">www.kiko.bot</"
+"a>."
+msgstr ""
+"Mit dem Produkt Kiko unterstützen wir große Unternehmen, Behörden und KMU\n"
+"      bei der Erstellung und dem Betrieb digitaler Assistenten. Mit wenigen\n"
+"      Schritten können Sie sich für ein Chatbot-Konto registrieren. Eine\n"
+"      ausführliche Beschreibung zur Erstellung von Inhalten finden Sie im\n"
+"      Helpcenter auf unserer Webseite <a href=\"www.kiko.bot\">www.kiko.bot</"
+"a>."
+
+#: assets/views/kiko-register-page.php:45
+msgid "Registrierung"
+msgstr "Registrierung"
+
+#: assets/views/kiko-register-page.php:46
+msgid "Neuen Account anlegen"
+msgstr "Neuen Account anlegen"
+
+#: assets/views/kiko-register-page.php:48
+msgid "Registrieren"
+msgstr "Registrieren"
+
+#: assets/views/kiko-register-page.php:50
+msgid "API-Key manuell eintragen"
+msgstr "API-Key manuell eintragen"
+
+#: assets/views/kiko-register-page.php:52
+msgid "Den API-Key finden Sie in Ihrem Profil im Content Management System."
+msgstr "Den API-Key finden Sie in Ihrem Profil im Content Management System."
+
+#: assets/views/kiko-register-page.php:56
+msgid "API-Key speichern"
+msgstr "API-Key speichern"
